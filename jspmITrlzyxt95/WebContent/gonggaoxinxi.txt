@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[gonggaoxinxi] (
+	[ID] [int] IDENTITY (1, 1) NOT NULL ,[biaoti] [varchar] (300) COLLATE Chinese_PRC_CI_AS NULL ,[neirong] [text] COLLATE Chinese_PRC_CI_AS NULL  ,[addtime] [datetime] DEFAULT (getdate()) 
+) ON [PRIMARY] 
+GO
+
+insert into gonggaoxinxi(biaoti,neirong) values('全县中层女干部集中“充电”','');insert into gonggaoxinxi(biaoti,neirong) values('钱库藏书家吴荣烈','');insert into gonggaoxinxi(biaoti,neirong) values('钱库城南社区乔迁暨挂牌仪式','');insert into gonggaoxinxi(biaoti,neirong) values('钱库城南社区乔迁暨挂牌仪式','');insert into gonggaoxinxi(biaoti,neirong) values('黑色衣装持续走俏 早春搭出新花样','');
+
+
+

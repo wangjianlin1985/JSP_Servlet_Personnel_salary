@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[wenjianxinxi] (
+	[ID] [int] IDENTITY (1, 1) NOT NULL ,[wenjianbianhao] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[wenjianmingcheng] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[wenjian] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[wenjianjianjie] [varchar] (500) COLLATE Chinese_PRC_CI_AS NULL  ,[addtime] [datetime] DEFAULT (getdate()) 
+) ON [PRIMARY] 
+GO
+
+insert into wenjianxinxi(wenjianbianhao,wenjianmingcheng,wenjian,wenjianjianjie) values('4295791594','P文件','upload/1.zip','ok');insert into wenjianxinxi(wenjianbianhao,wenjianmingcheng,wenjian,wenjianjianjie) values('4295745229','E文件','upload/1.zip','ok');insert into wenjianxinxi(wenjianbianhao,wenjianmingcheng,wenjian,wenjianjianjie) values('4295795286','Y文件','upload/1.zip','没问题');insert into wenjianxinxi(wenjianbianhao,wenjianmingcheng,wenjian,wenjianjianjie) values('4295795286','N文件','upload/1.zip','没问题');insert into wenjianxinxi(wenjianbianhao,wenjianmingcheng,wenjian,wenjianjianjie) values('4295745229','G文件','upload/1.zip','无');
+
+
+
